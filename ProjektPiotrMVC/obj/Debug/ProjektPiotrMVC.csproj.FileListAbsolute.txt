@@ -1,0 +1,276 @@
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\ProjektPiotrMVC.dll.config
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\ProjektPiotrMVC.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\ProjektPiotrMVC.pdb
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csc.exe
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csc.exe.config
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csc.rsp
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csi.exe
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csi.exe.config
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csi.rsp
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.AppContext.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Console.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\vbc.exe
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\vbc.exe.config
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\vbc.rsp
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Antlr3.Runtime.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\EntityFramework.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Newtonsoft.Json.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Owin.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Helpers.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Mvc.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Optimization.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Razor.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\WebGrease.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Helpers.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Mvc.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Optimization.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Razor.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Newtonsoft.Json.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Antlr3.Runtime.pdb
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\EntityFramework.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.Razor.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Security.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.csprojAssemblyReference.cache
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.csproj.CoreCompileInputs.cache
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.csproj.CopyComplete
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.dll
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.pdb
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.init_0.resources
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.csproj.GenerateResource.cache
+C:\Users\OLGIERD\Desktop\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v2.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\ProjektPiotrMVC.dll.config
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\ProjektPiotrMVC.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\ProjektPiotrMVC.pdb
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csc.exe
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csc.exe.config
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csc.rsp
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csi.exe
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csi.exe.config
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\csi.rsp
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.AppContext.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Console.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\vbc.exe
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\vbc.exe.config
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\vbc.rsp
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Antlr3.Runtime.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\EntityFramework.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Newtonsoft.Json.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Owin.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Helpers.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Mvc.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Optimization.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Razor.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\WebGrease.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\EntityFramework.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Helpers.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Mvc.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Optimization.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.Razor.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Newtonsoft.Json.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Antlr3.Runtime.pdb
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.Razor.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Security.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.init_0.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v2.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v3.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v4.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v5.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v6.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v7.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v9.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v91.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v92.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v93.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v10.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v101.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v102.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.csproj.GenerateResource.cache
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.csproj.CoreCompileInputs.cache
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.csproj.CopyComplete
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.dll
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.pdb
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.csprojAssemblyReference.cache
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v103.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v104.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v105.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v1051.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v1.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v8.resources
+C:\Users\OLGIERD\Desktop\STUDIA\SEMESTR VI\MVC\ProjektPiotrMVC\ProjektPiotrMVC\obj\Debug\ProjektPiotrMVC.Migrations.v11.resources

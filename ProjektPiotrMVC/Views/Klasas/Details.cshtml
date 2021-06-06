@@ -1,0 +1,73 @@
+﻿@model ProjektPiotrMVC.Models.Klasa
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Szczegóły</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Wychowawca
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wychowawca.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nazwa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rocznik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rocznik)
+        </dd>
+
+    </dl>
+    <br />
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(modelItem => Model.Wychowawca.Imie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(modelItem => Model.Wychowawca.Nazwisko)
+            </th>
+            <th>
+                @Html.DisplayNameFor(modelItem => Model.Wychowawca.Email)
+            </th>
+        </tr>
+
+        @foreach (var item in Model.Uczniowie)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Imie)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nazwisko)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>
+<p>
+    @Html.ActionLink("Edytuj", "Edit", new { id = Model.KlasaID }) |
+    @Html.ActionLink("Wróć", "Index")
+</p>

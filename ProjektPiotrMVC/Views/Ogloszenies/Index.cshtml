@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ProjektPiotrMVC.Models.Ogloszenie>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Ogłoszenia klasy: @ViewBag.Klasa</h1>
+
+<input type="button" style="width:140px" value="Dodaj ogłoszenie" class="btn btn-success"
+       onclick="location.href='@Url.Action("Create", "Ogloszenies", new { prywatne = true })'" />
+<br />
+<br />
+
+<table class="table">
+    <tr style="font-size:24px">
+        <th>
+            @Html.DisplayNameFor(model => model.Tytul)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataDodania)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr style="font-size:22px"> 
+            <td>
+                @Html.DisplayFor(modelItem => item.Tytul)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataDodania)
+            </td>
+            <td>
+                @Html.ActionLink("Edytuj", "Edit", new { id = item.OgloszenieID }) |
+                @Html.ActionLink("Szczegóły", "Details", new { id = item.OgloszenieID }) |
+                @Html.ActionLink("Usuń", "Delete", new { id = item.OgloszenieID })
+            </td>
+        </tr>
+    }
+
+</table>

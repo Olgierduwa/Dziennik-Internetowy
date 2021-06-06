@@ -1,0 +1,88 @@
+﻿@model IEnumerable<ProjektPiotrMVC.Models.AccountsViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Konta</h2>
+
+<p>
+    <input type="button" style="width:180px" value="Utwórz użytkownika" class="btn btn-success" onclick="location.href = '@Url.Action("Register")'" />
+</p>
+<h3><b>Admini</b></h3>
+<table class="table">
+    @foreach (var item in Model)
+    {
+        if (item.Rola.Name == "Admin")
+        {
+            <tr style="font-size:18px;">
+                <td style="width:600px">
+                    @Html.DisplayFor(modelItem => item.Konto.Email)
+                </td>
+                <td>
+                    @Html.ActionLink("Usuń", "Delete", new { id = item.Konto.Id })
+                </td>
+            </tr>
+        }
+    }
+</table>
+<br />
+<br />
+<h3><b>Nauczyciele</b></h3>
+<table class="table">
+    @foreach (var item in Model)
+    {
+        if (item.Rola.Name == "Nauczyciel")
+        {
+            <tr style="font-size:18px;">
+                <td style="width:600px">
+                    @Html.DisplayFor(modelItem => item.Konto.Email)
+                </td>
+                <td>
+                    @Html.ActionLink("Usuń", "Delete", new { id = item.Konto.Id })
+                </td>
+            </tr>
+        }
+    }
+</table>
+<br />
+<br />
+
+<h3><b>Uczniowie</b></h3>
+<table class="table">
+    @foreach (var item in Model)
+    {
+        if (item.Rola.Name == "Uczen")
+        {
+            <tr style="font-size:18px;">
+                <td style="width:600px">
+                    @Html.DisplayFor(modelItem => item.Konto.Email)
+                </td>
+                <td>
+                    @Html.ActionLink("Usuń", "Delete", new { id = item.Konto.Id })
+                </td>
+            </tr>
+        }
+    }
+</table>
+<br />
+<br />
+
+<h3><b>Rodzice</b></h3>
+<table class="table">
+    @foreach (var item in Model)
+    {
+        if (item.Rola.Name == "Rodzic")
+        {
+            <tr style="font-size:18px;">
+                <td style="width:600px">
+                    @Html.DisplayFor(modelItem => item.Konto.Email)
+                </td>
+                <td>
+                    @Html.ActionLink("Usuń", "Delete", new { id = item.Konto.Id }) |
+                    @Html.ActionLink("Dzieci", "Dziecko", new { id = item.Konto.Id })
+                </td>
+            </tr>
+        }
+    }
+</table>

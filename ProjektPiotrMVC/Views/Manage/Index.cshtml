@@ -1,0 +1,43 @@
+﻿@model ProjektPiotrMVC.Models.IndexViewModel
+@{
+    ViewBag.Title = "Twoje konto";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>Zarządzaj kontem</h4>
+    <hr />
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DisplayFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PhoneNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DisplayFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-lg-offset-2 col-md-10">
+                <input type="button" style="width:300px" value="Zmień numer telefonu" class="btn btn-default"
+                       onclick="location.href = '@Url.Action("AddPhoneNumber")'" />
+            </div>
+            <div class="col-lg-offset-2 col-md-10">
+                <input type="button" style="width:300px" value="Zmień hasło" class="btn btn-default"
+                       onclick="location.href = '@Url.Action("ChangePassword")'" />
+            </div>
+            <div class="col-lg-offset-2 col-md-10">
+                <input type="button" style="width:300px" value="Edytuj Profil" class="btn btn-default"
+                       onclick="location.href = '@Url.Action("Edit", "Manage")'" />
+            </div>
+        </div>
+    </div>
+</div>

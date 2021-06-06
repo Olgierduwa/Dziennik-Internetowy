@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ProjektPiotrMVC.Models.Ocena>
+
+@{
+    ViewBag.Title = "IndexNauczyciel";
+}
+
+<h1>Oceny: @ViewBag.Uczen</h1>
+
+<input type="button" style="width:140px" value="Dodaj ocenę" class="btn btn-success"
+       onclick="location.href='@Url.Action("Create", "Ocenas", new { UczenID = ViewBag.UczenID, KlasaID = ViewBag.KlasaID })'" />
+<br />
+<br />
+
+<table class="table">
+    <tr style="font-size:24px">
+        <th>
+            @Html.DisplayNameFor(model => model.DataDodania)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kategoria)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Wartosc)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr style="font-size:22px">
+            <td>
+                @Html.DisplayFor(modelItem => item.DataDodania)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kategoria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Wartosc)
+            </td>
+            <td>
+                @Html.ActionLink("Usuń", "Delete", new { id = item.OcenaID })
+            </td>
+        </tr>
+    }
+
+</table>
+<input type="button" style="width:140px" value="Wróć" class="btn btn-default"
+       onclick="location.href='@Url.Action("ManageClass", "Nauczyciel", new { KlasaID = ViewBag.KlasaID })'" />

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ProjektPiotrMVC.Models.UczenRodzic>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Twoje dzieci</h2>
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Uczen.Imie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Uczen.Nazwisko)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Uczen.Klasa.Rocznik)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Uczen.Klasa.Nazwa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Uczen.Klasa.Wychowawca.Email)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uczen.Imie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uczen.Nazwisko)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uczen.Klasa.Rocznik)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uczen.Klasa.Nazwa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uczen.Klasa.Wychowawca.Email)
+            </td>
+            <td>
+                <input type="button" style="width:140px" value="Oceny" class="btn btn-default"
+                       onclick="location.href='@Url.Action("IndexRodzic", "Ocenas", new { UczenID = item.UczenID, RodzicID = item.RodzicID })'" />
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,22 @@
+Zalogowany:
+- zarzadzanie profilem
+
+Admin:
++ zarzadzanie kontami (uwzględniając role)
++ zarzadzanie klasami
++ zarzadzanie przedmiotami
+
+Nauczyciel:
+- zarzadzanie wiadomosciami
+- zarzadzanie ogłoszeniami w klasie wychowawczej
+- zarzadzanie klasami w prowadzonym przedmiocie
+	- zarzadzanie oceniami doanego ucznia
+
+Uczeń:
+- wyswietlanie oceny (uczniowie/przedmioty)
+- wyswietlanie ogloszen
+
+Rodzic:
+- wyswietlanie oceny (uczniowie/przedmioty)
+- zarzadzanie wiadomosciami (dodac obiekt wiadomosci)
+- wyswietlanie ogloszen

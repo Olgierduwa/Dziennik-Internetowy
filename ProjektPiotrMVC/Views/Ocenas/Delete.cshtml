@@ -1,0 +1,30 @@
+﻿@model ProjektPiotrMVC.Models.Ocena
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<style type="text/css">
+
+    #blok0 {
+        padding: 100px;
+        font-size: 40px;
+        text-align: center;
+    }
+</style>
+
+<div id="blok0">
+    Chcesz usunąć ocenę "@Html.DisplayFor(model => model.Wartosc)"
+    <br />
+    w kategorii "@Html.DisplayFor(model => model.Kategoria)"
+    <br />
+    dla ucznia "@Html.DisplayFor(model => model.Uczen.Email)"?
+
+    @using (Html.BeginForm())
+    {
+        @Html.HiddenFor(m => m.OcenaID)
+        @Html.AntiForgeryToken()
+        <input type="submit" style="width:140px" value="Usuń ocenę" class="btn btn-danger" />
+        <input type="button" style="width:140px" value="Anuluj" class="btn btn-default" onclick="location.href = '@Request.UrlReferrer'" />
+    }
+</div>

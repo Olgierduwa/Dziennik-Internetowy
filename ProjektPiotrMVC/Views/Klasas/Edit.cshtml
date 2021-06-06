@@ -1,0 +1,95 @@
+﻿@model ProjektPiotrMVC.Models.ViewsModels.EditClassViewModel
+
+@{
+    ViewBag.Title = "Edytuj klasę";
+}
+
+<h2>@ViewBag.Title</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.KlasaID)
+    @Html.HiddenFor(model => model.StaryWychowawcaID)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Nazwa, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Nazwa, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Nazwa, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Rocznik, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Rocznik, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Rocznik, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.WychowawcaID, "Wychowawca", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("WychowawcaID", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.WychowawcaID, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-lg-offset-2 col-md-10">
+            <input type="button" style="width:140px" value="Anuluj" class="btn btn-default" onclick="location.href = '@Url.Action("Index")'" />
+            <input type="submit" style="width:140px" value="Zapisz zmiany" class="btn btn-success" />
+        </div>
+    </div>
+
+    <br />
+    <input type="button" style="width:140px" value="Dodaj ucznia" class="btn btn-default"
+           onclick="location.href='@Url.Action("AddToClass", "Klasas", new { KlasaID = Model.KlasaID })'" />
+    <br />
+    <br />
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(modelItem => Model.Wychowawca.Imie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(modelItem => Model.Wychowawca.Nazwisko)
+            </th>
+            <th>
+                @Html.DisplayNameFor(modelItem => Model.Wychowawca.Email)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.Uczniowie)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Imie)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nazwisko)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.ActionLink("Usuń z klasy", "DelFromClass", new { KlasaID = item.KlasaID, UczenID = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

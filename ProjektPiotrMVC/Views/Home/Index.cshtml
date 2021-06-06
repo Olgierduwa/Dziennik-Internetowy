@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ProjektPiotrMVC.Models.Ogloszenie>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Ogłoszenia</h1>
+
+@if(ViewBag.UserRole == "Nauczyciel")
+{
+    <input type="button" style="width:140px" value="Dodaj ogłoszenie" class="btn btn-success"
+           onclick="location.href='@Url.Action("Create", "Ogloszenies", new { prywatne = false })'" />
+    <br />
+    <br />
+}
+
+<table class="table">
+    <tr style="font-size:24px">
+        <th>
+            Autor
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tytul)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataDodania)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr style="font-size:22px">
+            <td>
+                @Html.DisplayFor(modelItem => item.Autor.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tytul)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataDodania)
+            </td>
+            <td>
+                <input type="button" style="width:120px" value="Szczegóły" class="btn btn-default"
+                       onclick="location.href='@Url.Action("JustDetails", "Ogloszenies", new { id = item.OgloszenieID })'" />
+
+                @if (ViewBag.UserRole == "Nauczyciel")
+                {
+                    <input type="button" style="width:120px" value="Edytuj" class="btn btn-default"
+                           onclick="location.href='@Url.Action("Edit", "Ogloszenies", new { id = item.OgloszenieID })'" />
+                    <input type="button" style="width:120px" value="Usuń" class="btn btn-default"
+                           onclick="location.href='@Url.Action("Delete", "Ogloszenies", new { id = item.OgloszenieID })'" />
+                }
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,29 @@
+﻿@model ProjektPiotrMVC.Models.ViewsModels.DelFromRodzicViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<style type="text/css">
+
+    #blok0 {
+        padding: 100px;
+        font-size: 40px;
+        text-align: center;
+    }
+</style>
+
+<div id="blok0">
+    Chcesz usunąć dziecko "@Html.DisplayFor(model => model.Uczen.Imie)"
+    <br />
+    rodzicowi "@Html.DisplayFor(model => model.Rodzic.Imie)"?
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.RodzicID)
+        @Html.HiddenFor(model => model.UczenID)
+        <input type="submit" style="width:150px" value="Usuń dziecko" class="btn btn-danger" />
+        <input type="button" style="width:140px" value="Anuluj" class="btn btn-default" onclick="location.href = '@Request.UrlReferrer'" />
+    }
+</div>

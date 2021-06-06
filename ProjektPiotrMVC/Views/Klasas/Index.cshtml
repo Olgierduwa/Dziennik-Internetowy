@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ProjektPiotrMVC.Models.Klasa>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Klasy</h2>
+
+<p>
+    <input type="button" style="width:180px" value="Utwórz klasę" class="btn btn-success" onclick="location.href = '@Url.Action("Create")'" />
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Rocznik)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nazwa)
+        </th>
+        <th>
+            Wychowawca
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IloscUczniow)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rocznik)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nazwa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Wychowawca.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IloscUczniow)
+        </td>
+        <td>
+            @Html.ActionLink("Edytuj", "Edit", new { id=item.KlasaID }) |
+            @Html.ActionLink("Szczegóły", "Details", new { id=item.KlasaID }) |
+            @Html.ActionLink("Usuń", "Delete", new { id=item.KlasaID })
+        </td>
+    </tr>
+}
+
+</table>

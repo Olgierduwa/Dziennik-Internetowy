@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ProjektPiotrMVC.Models.Plik>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Przedmiot.Nazwa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nazwa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lokalizacja)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Przedmiot.Nazwa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nazwa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lokalizacja)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PlikID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PlikID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PlikID })
+        </td>
+    </tr>
+}
+
+</table>

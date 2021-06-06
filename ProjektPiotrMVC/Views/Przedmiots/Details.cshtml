@@ -1,0 +1,63 @@
+﻿@model ProjektPiotrMVC.Models.ViewsModels.EditPrzedmiotViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Szczegóły</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Prowadzący
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Prowadzacy.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nazwa)
+        </dd>
+
+    </dl>
+    <br />
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(modelItem => Model.Klasa.Rocznik)
+            </th>
+            <th>
+                @Html.DisplayNameFor(modelItem => Model.Klasa.Nazwa)
+            </th>
+            <th>
+                Wychowawca
+            </th>
+        </tr>
+
+        @foreach (var item in Model.Klasy)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rocznik)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nazwa)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Wychowawca.Email)
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Edytuj", "Edit", new { id = Model.PrzedmiotID }) |
+    @Html.ActionLink("Wróć", "Index")
+</p>

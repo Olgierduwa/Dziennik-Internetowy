@@ -1,0 +1,27 @@
+﻿@model ProjektPiotrMVC.Models.Klasa
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<style type="text/css">
+
+    #blok0 {
+        padding: 100px;
+        font-size: 40px;
+        text-align: center;
+    }
+</style>
+
+<div id="blok0">
+    Chcesz usunąć klasę "@Html.DisplayFor(model => model.Nazwa)"
+    w roczniku @Html.DisplayFor(model => model.Rocznik)
+    wychowacy @Html.DisplayFor(model => model.Wychowawca.Email)?
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <input type="submit" style="width:140px" value="Usuń klasę" class="btn btn-danger" />
+        <input type="button" style="width:140px" value="Anuluj" class="btn btn-default" onclick="location.href = '@Request.UrlReferrer'" />
+    }
+</div>

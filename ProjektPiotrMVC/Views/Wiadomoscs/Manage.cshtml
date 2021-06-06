@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ProjektPiotrMVC.Models.Wiadomosc>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    textarea, input {
+        max-width: 100%
+    }
+</style>
+
+<h2>Rozmowa z użytkownikiem: @ViewBag.Odbiorca</h2>
+<br />
+<br />
+<br />
+
+<table class="table">
+    @foreach (var item in Model)
+    {
+        <tr style="font-size:22px">
+            <td>
+                @Html.DisplayFor(modelItem => item.Tresc)
+            </td>
+        </tr>
+    }
+
+</table>
+<div class="form-group col-lg-12">
+    <div class="col-md-3">
+        <input type="button" style="width:100%; height:50px; font-size:24px" value="Wróć" class="btn btn-default" onclick="location.href = '@Request.UrlReferrer'" />
+    </div>
+    <div class="col-md-6">
+        @Html.TextArea("wiadomosc", new { @class = "form-control" })
+    </div>
+    <div class="col-md-3">
+        <input type="button" style="width: 100%; height: 50px; font-size: 24px" value="Wyślij wiadomość" class="btn btn-info"
+               onclick="location.href='@Url.Action("Create", "Wiadomoscs", new { NadawcaID = ViewBag.NadawcaID, OdbiorcaID = ViewBag.OdbiorcaID })'" />
+    </div>
+</div>

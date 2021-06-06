@@ -1,0 +1,89 @@
+﻿@model ProjektPiotrMVC.Models.ViewsModels.EditPrzedmiotViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edytuj przedmiot</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.PrzedmiotID)
+    @Html.HiddenFor(model => model.StaryProwadzacyID)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Nazwa, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Nazwa, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Nazwa, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ProwadzacyID, "Prowadzacy", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("ProwadzacyID", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.ProwadzacyID, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-lg-offset-2 col-md-10">
+            <input type="button" style="width:140px" value="Anuluj" class="btn btn-default" onclick="location.href = '@Url.Action("Index")'" />
+            <input type="submit" style="width:140px" value="Zapisz zmiany" class="btn btn-success" />
+        </div>
+    </div>
+
+    <br />
+    <input type="button" style="width:140px" value="Dodaj klasę" class="btn btn-default"
+           onclick="location.href='@Url.Action("AddToPrzedmiot", "Przedmiots", new { PrzedmiotID = Model.PrzedmiotID })'" />
+    <br />
+    <br />
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(modelItem => Model.Klasa.Rocznik)
+            </th>
+            <th>
+                @Html.DisplayNameFor(modelItem => Model.Klasa.Nazwa)
+            </th>
+            <th>
+                Wychowawca
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.Klasy)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rocznik)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nazwa)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Wychowawca.Email)
+                </td>
+                <td>
+                    @Html.ActionLink("Usuń z przedmiotu", "DelFromPrzedmiot", new { PrzedmiotID = Model.PrzedmiotID, KlasaID = item.KlasaID })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

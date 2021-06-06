@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ProjektPiotrMVC.Models.UczenRodzic>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Dzieci rodzica: @ViewBag.Rodzic</h2>
+
+<input type="button" style="width:140px" value="Dodaj dziecko" class="btn btn-success"
+       onclick="location.href='@Url.Action("Add", "Dziecko", new { RodzicID = ViewBag.RodzicID })'" />
+<br />
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Uczen.Imie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Uczen.Nazwisko)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Uczen.Klasa.Rocznik)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Uczen.Klasa.Nazwa)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uczen.Imie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uczen.Nazwisko)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uczen.Klasa.Rocznik)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uczen.Klasa.Nazwa)
+            </td>
+            <td>
+                @Html.ActionLink("Usuń", "Delete", new { RodzicID = item.RodzicID, UczenID = item.UczenID })
+            </td>
+        </tr>
+    }
+</table>
+<input type="button" style="width:140px" value="Wróć" class="btn btn-default"
+       onclick="location.href='@Url.Action("Index", "Account")'" />

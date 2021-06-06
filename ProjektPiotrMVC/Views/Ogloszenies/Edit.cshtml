@@ -1,0 +1,50 @@
+﻿@model ProjektPiotrMVC.Models.Ogloszenie
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+<style> textarea, input { max-width:80% } </style>
+<h1>Edycja ogłoszenia</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.OgloszenieID)
+        @Html.HiddenFor(model => model.Prywatne)
+        @Html.HiddenFor(model => model.DataDodania)
+        @Html.HiddenFor(model => model.AutorID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Tytul, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Tytul, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Tytul, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Kontent, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Kontent, new { @class = "form-control", @rows = 10 })
+                @Html.ValidationMessageFor(model => model.Kontent, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" style="width:140px" value="Anuluj" class="btn btn-default" onclick="location.href = '@Request.UrlReferrer'" />
+                <input type="submit" value="Zapisz zmiany" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

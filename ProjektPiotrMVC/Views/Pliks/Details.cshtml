@@ -1,0 +1,42 @@
+﻿@model ProjektPiotrMVC.Models.Plik
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Plik</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Przedmiot.Nazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Przedmiot.Nazwa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nazwa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lokalizacja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lokalizacja)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PlikID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

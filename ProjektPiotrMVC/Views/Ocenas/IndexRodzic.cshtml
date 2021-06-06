@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ProjektPiotrMVC.Models.Ocena>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Oceny: @ViewBag.Uczen</h2>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Przedmiot.Nazwa)
+        </th>
+        <th>
+            Prowadzący
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataDodania)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kategoria)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Wartosc)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Przedmiot.Nazwa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Przedmiot.Prowadzacy.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataDodania)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kategoria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Wartosc)
+            </td>
+        </tr>
+    }
+
+</table>
+<input type="button" style="width:140px" value="Wróć" class="btn btn-default"
+       onclick="location.href='@Url.Action("IndexRodzic", "Dziecko", new { id = ViewBag.RodzicID })'" />

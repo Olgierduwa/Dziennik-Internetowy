@@ -1,0 +1,27 @@
+﻿@model ProjektPiotrMVC.Models.ViewsModels.DelFromPrzedmiotViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<style type="text/css">
+
+    #blok0 {
+        padding: 100px;
+        font-size: 40px;
+        text-align: center;
+    }
+</style>
+
+<div id="blok0">
+    Chcesz usunąć klasę "@Html.DisplayFor(model => model.Klasa.Nazwa) z danego przedmiotu?
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.PrzedmiotID)
+        @Html.HiddenFor(model => model.KlasaID)
+        <input type="submit" style="width:150px" value="Usuń z przedmiotu" class="btn btn-danger" />
+        <input type="button" style="width:140px" value="Anuluj" class="btn btn-default" onclick="location.href = '@Request.UrlReferrer'" />
+    }
+</div>

@@ -1,0 +1,101 @@
+﻿@model ProjektPiotrMVC.Models.ViewsModels.ManagePrzedmiotViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <h1>@Model.Nazwa</h1>
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.PrzedmiotID)
+
+        <h2>Pliki dla przedmiotu</h2>
+        <input type="button" style="width:140px" value="Dodaj plik" class="btn btn-success"
+               onclick="location.href='@Url.Action("Create", "Pliks", new { PrzedmiotID = Model.PrzedmiotID })'" />
+        <br />
+        <br />
+
+        <table class="table">
+            <tr style="font-size: 24px">
+                <th>
+                    @Html.DisplayNameFor(modelItem => Model.Plik.Nazwa)
+                </th>
+                <th>
+                    Lokalizacja
+                </th>
+                <th>
+                    Format
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model.Pliki)
+            {
+                <tr style="font-size: 22px">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nazwa)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Lokalizacja)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Format)
+                    </td>
+                    <td>
+                        <input type="button" style="width:140px" value="Usuń" class="btn btn-default"
+                               onclick="location.href='@Url.Action("Delete", "Pliks", new { id = item.PlikID })'" />
+                    </td>
+                </tr>
+            }
+        </table>
+        <hr />
+        <br />
+
+        <h2>Klasy dla przedmiotu</h2>
+        <table class="table">
+            <tr style="font-size: 24px">
+                <th>
+                    @Html.DisplayNameFor(modelItem => Model.Klasa.Rocznik)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(modelItem => Model.Klasa.Nazwa)
+                </th>
+                <th>
+                    Wychowawca
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model.Klasy)
+            {
+                <tr style="font-size: 22px">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Rocznik)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nazwa)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Wychowawca.Email)
+                    </td>
+                    <td>
+                        <input type="button" style="width:140px" value="Zarządzaj" class="btn btn-default"
+                               onclick="location.href='@Url.Action("ManageClass", new { KlasaID = item.KlasaID})'" />
+                    </td>
+                </tr>
+            }
+
+        </table>
+
+    </div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

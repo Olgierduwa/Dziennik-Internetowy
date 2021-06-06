@@ -1,0 +1,41 @@
+﻿@model ProjektPiotrMVC.Models.Ogloszenie
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h1>Szczegóły ogłoszenia</h1>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal" style="font-size: 20px">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tytul)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tytul)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataDodania)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataDodania)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kontent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kontent)
+        </dd>
+
+    </dl>
+</div>
+<div class="col-lg-offset-2 col-md-10">
+    <input type="button" style="width:140px" value="Wróć" class="btn btn-default" onclick="location.href = '@Request.UrlReferrer'" />
+</div>
